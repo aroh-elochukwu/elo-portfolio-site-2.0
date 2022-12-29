@@ -1,0 +1,9 @@
+.avatar-and-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  color: grey;
+  padding-left: 2.5em;
+}
