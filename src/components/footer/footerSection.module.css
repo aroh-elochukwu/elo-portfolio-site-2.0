@@ -1,5 +1,8 @@
 .footer-side-text {
   color: rgb(0,21,41);
+  font-size: 1.15em;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer-section-container { 

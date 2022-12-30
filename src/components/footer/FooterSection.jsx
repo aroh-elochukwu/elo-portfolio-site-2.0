@@ -10,7 +10,7 @@ const FooterSection = () => {
   return ( 
     <Footer className={styles['footer-section-container']}>
       <SocialMediaLinksDiv/>
-      <h4 className={styles['footer-side-text']}>Powered with React.js, cuz I love it</h4>
+      <p className={styles['footer-side-text']}>Powered with React.js, cuz I love it</p>
       
     </Footer>
    );
