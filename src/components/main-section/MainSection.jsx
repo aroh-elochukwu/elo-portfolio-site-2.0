@@ -1,24 +1,17 @@
 import React from 'react';
 import { Layout} from 'antd';
+
+import styles from './mainSection.module.css'
 const { Content } = Layout;
 
 const MainSection = () => {
   return ( 
-    <Content
-        style={{
-          padding: '0 50px', 
-        }}
-      >
-        <div
-          className="site-layout-content"
-          style={{
-            background: 'white', minHeight: '76vh'
-          }}
-        >
-          Content
-        </div>
+    <Content >
+      <div className={styles['main-section-inner-container']}>
+        Content
+      </div>      
 
-      </Content>
+    </Content>
    );
 }
  

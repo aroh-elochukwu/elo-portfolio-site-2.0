@@ -8,7 +8,7 @@ const { Footer } = Layout;
 
 const FooterSection = () => {
   return ( 
-    <Footer style={{textAlign:'center', display:'flex', justifyContent:'space-between'}}>
+    <Footer className={styles['footer-section-container']}>
       <SocialMediaLinksDiv/>
       <h4 className={styles['footer-side-text']}>Powered with React.js, cuz I love it</h4>
       

@@ -1,0 +1,10 @@
+.main-section-inner-container {
+  min-height: 76vh;
+  background: url('../../assets/user-images/jon-moore-Er3x1zmQqJk-unsplash.jpg') no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.6;   
+
+}
