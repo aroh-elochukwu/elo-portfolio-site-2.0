@@ -7,3 +7,10 @@
   color: grey;
   padding-left: 2.5em;
 }
+
+@media screen and (max-width: 620px) {
+  .username {
+    display: none;
+  }
+
+}
