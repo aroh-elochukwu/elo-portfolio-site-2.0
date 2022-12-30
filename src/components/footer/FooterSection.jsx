@@ -2,16 +2,16 @@ import React from 'react';
 import {Layout} from 'antd';
 
 import SocialMediaLinksDiv from './SocialMediaLinksDiv';
+import styles from './footerSection.module.css';
 
 const { Footer } = Layout;
 
 const FooterSection = () => {
   return ( 
-    <Footer>
+    <Footer style={{textAlign:'center', display:'flex', justifyContent:'space-between'}}>
       <SocialMediaLinksDiv/>
-      powered with react
-      <h5>nvjkzv z</h5>
-      <h5>nvjkzv z</h5>
+      <h4 className={styles['footer-side-text']}>Powered with React.js, cuz I love it</h4>
+      
     </Footer>
    );
 }

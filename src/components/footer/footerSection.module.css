@@ -1,0 +1,11 @@
+.footer-side-text {
+  color: rgb(0,21,41);
+}
+
+@media screen and (max-width: 620px){
+
+  .footer-side-text{
+    display: none;
+  }
+  
+}
