@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Menu } from 'antd';
 
 import styles from './menuBar.module.css'
@@ -6,10 +7,10 @@ import styles from './menuBar.module.css'
 const MenuBar = () => {
   
   const menuOptions = [
-    {name: 'Home', id: 0},
-    {name: 'About', id: 1},
-    {name: 'Projects', id: 2},
-    {name: 'Contact', id: 3}    
+    {name: 'Home', id: 0, link: './'},
+    {name: 'About', id: 1, link: './'},
+    {name: 'Projects', id: 2, link: './projects-page'},
+    {name: 'Contact', id: 3, link: './'}    
   ];
 
   return (
@@ -18,14 +19,20 @@ const MenuBar = () => {
       theme="dark"
       mode="horizontal"
       defaultSelectedKeys={['0']}   
-      items={menuOptions.map((option) => {
-        return {
-          key: option.id,
-          label: option.name
-        };
-        
+      
+    > 
+      {menuOptions.map(option => {
+        return (
+          <Menu.Item key={option.id}>
+            <Link to={option.link}>
+              {option.name}
+            </Link>
+          </Menu.Item>
+        )
       })}
-    />
+    
+    
+    </Menu>
         
     );
 }
