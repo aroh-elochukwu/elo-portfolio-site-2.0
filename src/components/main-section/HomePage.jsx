@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Button, Layout} from 'antd';
 
-import styles from './mainSection.module.css'
+import styles from './homePage.module.css'
 const { Content } = Layout;
 
-const MainSection = () => {
+const HomePage = () => {
   return ( 
     <Content >
       <div className={styles['main-section-container']}>
@@ -12,7 +14,10 @@ const MainSection = () => {
           <h1 className={styles['main-text']}>Hey, i'm Elochukwu Aroh</h1>
           <p className={styles['supporting-text']}>You want laser focus attention to detail with your projects?</p>
           <p className={styles['supporting-text']}>Well look no further!</p>
-          <Button className={styles.button} type='primary'>Projects</Button>
+          <Link to={'./projects-page'}>
+            <Button className={styles.button} type='primary'>Projects</Button>
+          </Link>
+          
         </div>        
       </div>      
 
@@ -20,4 +25,4 @@ const MainSection = () => {
    );
 }
  
-export default MainSection;
+export default HomePage;
