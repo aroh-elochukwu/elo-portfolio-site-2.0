@@ -12,12 +12,10 @@ function App() {
     <Router>
       <Layout >
         <TopNav/>
-
         <Routes>
           <Route element={<HomePage/>} path='/'/>
           <Route element={<ProjectsPage/>} path='/projects-page'/>
-        </Routes>
-        
+        </Routes>       
         
         <FooterSection/>
       </Layout> 

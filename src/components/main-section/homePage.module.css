@@ -12,29 +12,6 @@
 
 }
 
-.stack-outer-container {
-  position: absolute;
-  top: 0;
-  width: 50vw;
-  left: 25vw;
-  right: 25vw;
-  
-}
-
-.stack-inner-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
- 
-
-}
-
-.stack-option {
-  font-weight: 500;
-  padding-left: 0.5em;
-  padding-right: 0.5em; 
-  margin: 0;
-}
 
 .main-section-inner-container {
   text-align: center;
@@ -66,13 +43,3 @@
  
 }
 
-@media screen and (max-width: 700px ) {
-
-  .stack-outer-container{
-    width: 100vw;
-    right: 0;
-    left: 0;
-  }
-
-  
-}
