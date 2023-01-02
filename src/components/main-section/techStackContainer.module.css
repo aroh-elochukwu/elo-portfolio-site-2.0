@@ -26,10 +26,7 @@
 @media screen and (max-width: 700px ) {
 
   .stack-outer-container{
-    width: 100vw;
-    right: 0;
-    left: 0;
-    top: 63vh;
+    display: none;
   }
 
   
