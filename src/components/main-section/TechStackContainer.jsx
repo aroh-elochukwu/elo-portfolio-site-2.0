@@ -7,7 +7,7 @@ const TechStackContainer = () => {
   return (
     <div className={styles['stack-outer-container']} >
 
-      <Card title="Tech Stack Arsenal" bordered={false}>
+      <Card title="My Tech Stack Arsenal" bordered={false}>
         <div className={styles['stack-inner-container']}>              
           <p className={styles['stack-option']}>React.js</p>
           <p className={styles['stack-option']}>Angular.js</p>
