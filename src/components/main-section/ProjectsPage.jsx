@@ -1,21 +1,18 @@
 import React from 'react';
 import { Descriptions } from 'antd';
-import { Avatar } from 'antd';
 import eloTVImage from '../../assets/projects-images/elo-tv-view.png'
 import budgetTrackerImage from '../../assets/projects-images/budget-tracker.png'
 import tictactoeImage from '../../assets/projects-images/tictactoe.png'
 
 const ProjectsPage = () => {
-  const projects = [
-
-  ];
+  
   return (
     <div style={{marginLeft:'2em', marginRight:'2em'}}>
       <h2 style={{ textAlign:'center', textTransform:'uppercase', color:'grey'}}>Projects Page</h2>
       <p style={{marginBottom:'2.5em'}}>Please note that all projects are embedded with redirecting links to these projects for your personal observations and viewing pleasure.</p>
       <a href='https://delightful-hamster-f5c8cd.netlify.app/'>
         <Descriptions style={{marginBottom:'3em'}}  bordered title="Elo-TV">
-          <Descriptions.Item label="Logo"><img src={eloTVImage}/></Descriptions.Item>        
+          <Descriptions.Item label="Logo"><img src={eloTVImage} alt='Elo TV logo'/></Descriptions.Item>        
           <Descriptions.Item label="Built with">React.js</Descriptions.Item>
           <Descriptions.Item label="Build Partners">None</Descriptions.Item>
           <Descriptions.Item label="API Mentions">The Movies Database API</Descriptions.Item>
@@ -26,7 +23,7 @@ const ProjectsPage = () => {
       </a>
       <a href='https://moonlit-nasturtium-220cb4.netlify.app/'>
         <Descriptions style={{marginBottom:'3em'}} bordered title="Budget Tracker">
-          <Descriptions.Item label="Logo"><img style={{height:'5em'}}  src={budgetTrackerImage}/></Descriptions.Item>        
+          <Descriptions.Item label="Logo"><img style={{height:'5em'}} alt='Budget Tracker logo' src={budgetTrackerImage}/></Descriptions.Item>        
           <Descriptions.Item label="Built with">React.js</Descriptions.Item>
           <Descriptions.Item label="Build Partners">None</Descriptions.Item>
           <Descriptions.Item label="API Mentions">None</Descriptions.Item>
@@ -35,9 +32,9 @@ const ProjectsPage = () => {
           </Descriptions.Item>        
         </Descriptions>
       </a>
-      <a href=''>
+      <a href='https://elochukwuaroh.com/'>
         <Descriptions style={{marginBottom:'3em'}} bordered title="Tic Tac Toe Game">
-          <Descriptions.Item label="Logo"><img style={{height:'5em'}} src={tictactoeImage}/></Descriptions.Item>        
+          <Descriptions.Item label="Logo"><img style={{height:'5em'}} alt='Tic Tac Toe Game logo' src={tictactoeImage}/></Descriptions.Item>        
           <Descriptions.Item label="Built with">React.js</Descriptions.Item>
           <Descriptions.Item label="Build Partners">None</Descriptions.Item>
           <Descriptions.Item label="API Mentions">None</Descriptions.Item>
