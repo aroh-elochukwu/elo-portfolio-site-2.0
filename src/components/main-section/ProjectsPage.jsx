@@ -1,8 +1,9 @@
 import React from 'react';
 import { Descriptions } from 'antd';
-import eloTVImage from '../../assets/projects-images/elo-tv-view.png'
-import budgetTrackerImage from '../../assets/projects-images/budget-tracker.png'
-import tictactoeImage from '../../assets/projects-images/tictactoe.png'
+import eloTVImage from '../../assets/projects-images/elo-tv-view.png';
+import budgetTrackerImage from '../../assets/projects-images/budget-tracker.png';
+import tictactoeImage from '../../assets/projects-images/tictactoe.png';
+import weatherAppImage from '../../assets/projects-images/weather-app-logo.png';
 
 const ProjectsPage = () => {
   
@@ -23,7 +24,7 @@ const ProjectsPage = () => {
       </a>
       <a href='https://spectacular-puffpuff-f80d1c.netlify.app'>
         <Descriptions style={{marginBottom:'3em'}}  bordered title="Weather App">
-          <Descriptions.Item label="Logo"><img  alt='Weather App logo'/></Descriptions.Item>        
+          <Descriptions.Item label="Logo"><img src={weatherAppImage} alt='Weather App logo'/></Descriptions.Item>        
           <Descriptions.Item label="Built with">React.js</Descriptions.Item>
           <Descriptions.Item label="Build Partners">None</Descriptions.Item>
           <Descriptions.Item label="API Mentions">The Weather API and Weather Data</Descriptions.Item>
