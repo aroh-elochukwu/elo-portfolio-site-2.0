@@ -21,6 +21,17 @@ const ProjectsPage = () => {
           </Descriptions.Item>        
         </Descriptions>
       </a>
+      <a href='https://spectacular-puffpuff-f80d1c.netlify.app'>
+        <Descriptions style={{marginBottom:'3em'}}  bordered title="Weather App">
+          <Descriptions.Item label="Logo"><img  alt='Weather App logo'/></Descriptions.Item>        
+          <Descriptions.Item label="Built with">React.js</Descriptions.Item>
+          <Descriptions.Item label="Build Partners">None</Descriptions.Item>
+          <Descriptions.Item label="API Mentions">The Weather API and Weather Data</Descriptions.Item>
+          <Descriptions.Item label="Project Description">
+            An Application displaying the weather forecast to cities around the world with preference to my geographical location around me using the weather API
+          </Descriptions.Item>        
+        </Descriptions>
+      </a>
       <a href='https://moonlit-nasturtium-220cb4.netlify.app/'>
         <Descriptions style={{marginBottom:'3em'}} bordered title="Budget Tracker">
           <Descriptions.Item label="Logo"><img style={{height:'5em'}} alt='Budget Tracker logo' src={budgetTrackerImage}/></Descriptions.Item>        
