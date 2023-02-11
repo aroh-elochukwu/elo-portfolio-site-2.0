@@ -1,6 +1,6 @@
 import React from 'react';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
-import { AutoComplete, Avatar, Card } from 'antd';
+import { Card } from 'antd';
 
 
 import eloPicture from '../../assets/user-images/professional-pic.jpeg';
@@ -14,7 +14,7 @@ const AboutPage = () => {
         style={{width: 300 ,left:'40vw', right:'40vw', top: '2em' }}
         cover={
           <img
-            alt="A picture of Elochukwu Aroh"
+            alt="Elochukwu Aroh"
             src={eloPicture}
           />
          }
