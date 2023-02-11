@@ -7,6 +7,7 @@ import HomePage from './components/main-section/HomePage';
 import AboutPage from './components/main-section/AboutPage';
 import ProjectsPage from './components/main-section/ProjectsPage'
 import FooterSection from './components/footer/FooterSection';
+import HiddenPage from './components/main-section/HiddenPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route element={<HomePage/>} path='/'/>
           <Route element={<AboutPage/>} path='/about-page'/>
           <Route element={<ProjectsPage/>} path='/projects-page'/>
+          <Route element={<HiddenPage/>} path='/hidden-page'/>
         </Routes>       
         
         <FooterSection/>
