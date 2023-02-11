@@ -11,7 +11,7 @@ const AboutPage = () => {
   return ( 
     <React.Fragment>
       <Card
-        style={{width: 300 ,left:'40vw', right:'40vw', top: '2em' }}
+        style={{width: 300 , top: '2em' , margin: 'auto'}}
         cover={
           <img
             alt="Elochukwu Aroh"
