@@ -4,6 +4,7 @@ import eloTVImage from '../../assets/projects-images/elo-tv-view.png';
 import budgetTrackerImage from '../../assets/projects-images/budget-tracker.png';
 import tictactoeImage from '../../assets/projects-images/tictactoe.png';
 import weatherAppImage from '../../assets/projects-images/weather-app-logo.png';
+import mrketSquareImage from '../../assets/projects-images/mrket-square-final.png';
 
 const ProjectsPage = () => {
   
@@ -19,6 +20,17 @@ const ProjectsPage = () => {
           <Descriptions.Item label="API Mentions">The Movies Database API</Descriptions.Item>
           <Descriptions.Item label="Project Description">
             An Application displaying the most popular shows on some of the worlds largest streaming site using the movies database API
+          </Descriptions.Item>        
+        </Descriptions>
+      </a>
+      <a href='https://themrketsquare.azurewebsites.net/'>
+        <Descriptions style={{marginBottom:'3em'}}  bordered title="Mrket Square">
+          <Descriptions.Item label="Logo"><img style={{height:'5em'}} src={mrketSquareImage} alt='Mrket Square logo'/></Descriptions.Item>        
+          <Descriptions.Item label="Built with">ASP .NET MVC</Descriptions.Item>
+          <Descriptions.Item label="Build Partners"><a href='https://victorolure.com/'>Victor Olure</a></Descriptions.Item>
+          <Descriptions.Item label="Dependencies">Stripe, Microsoft SQL Server, Azure SQL Database and App Services, Bootswatch, Bootstrap, Toastr, TinyMCE </Descriptions.Item>
+          <Descriptions.Item label="Project Description">
+            A vibrant online marketplace, where a community of passionate small business owners comes together to showcase their handcrafted treasures. We take immense pride in curating a diverse collection of unique products that are a labor of love, crafted by talented local artisans.
           </Descriptions.Item>        
         </Descriptions>
       </a>
