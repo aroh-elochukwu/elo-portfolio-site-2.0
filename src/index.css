@@ -14,9 +14,10 @@ code {
 
 /* about page styles */
 
- 
-.ant-image-img {
+.ant-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
 } 
+
+ 
