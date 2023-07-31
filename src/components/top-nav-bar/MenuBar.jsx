@@ -10,7 +10,7 @@ const MenuBar = () => {
     {name: 'Home', id: 0, link: './'},
     {name: 'About', id: 1, link: './about-page'},
     {name: 'Projects', id: 2, link: './projects-page'},
-    {name: 'Contact', id: 3, link: './about-page'}    
+       
   ];
 
   return (
