@@ -55,25 +55,39 @@ const AboutPage = () => {
 
           <Divider orientation="left">Key Strengths</Divider>
           <p>
+            <li>
             Full-Stack Proficiency: <em>Demonstrated ability to work seamlessly across front-end and back-end technologies, ensuring cohesive and efficient application development. </em>       
+            </li>
           </p>
           <p>
+            <li>
             Web Application Development:<em> Adept at creating responsive and intuitive web applications using HTML, CSS, JavaScript, and modern front-end frameworks such as React and Angular, React Native, Next.js, TypeScript.</em>
+            </li>
           </p>
           <p>
-            Back-End Development: <em>Skilled in building robust back-end systems using Node.js, Express, MongoDB, Apache, ASP. NET Core, or other frameworks to handle data storage, API integration, and business logic.</em>
+            <li>
+              Back-End Development: <em>Skilled in building robust back-end systems using Node.js, Express, MongoDB, Apache, ASP. NET Core, or other frameworks to handle data storage, API integration, and business logic.</em>
+            </li>
           </p>
           <p>
-            Database Management: <em>Experience in designing and implementing databases, including SQL and NoSQL solutions, to ensure data integrity and efficient query performance.</em>
+            <li>
+              Database Management: <em>Experience in designing and implementing databases, including SQL and NoSQL solutions, to ensure data integrity and efficient query performance.</em>
+            </li>
           </p>
           <p>
-            Version Control and Deployment:<em> Proficient in utilizing Git for version control and deploying applications on cloud platforms like AWS or Azure.</em>
+            <li>
+              Version Control and Deployment:<em> Proficient in utilizing Git for version control and deploying applications on cloud platforms like AWS or Azure.</em>
+            </li>
           </p>
           <p>
-            Problem Solving and Troubleshooting:<em> Strong analytical skills, enabling the identification and resolution of complex technical challenges effectively.</em>
+            <li>
+              Problem Solving and Troubleshooting:<em> Strong analytical skills, enabling the identification and resolution of complex technical challenges effectively.</em>
+            </li>
           </p>
           <p>
-            Agile Development Methodologies:<em> Experience working in Agile environments, delivering high-quality code in fast-paced, collaborative teams.</em>
+            <li>
+              Agile Development Methodologies:<em> Experience working in Agile environments, delivering high-quality code in fast-paced, collaborative teams.</em>
+            </li>
           </p>
 
           <Divider orientation="left">Education</Divider>
