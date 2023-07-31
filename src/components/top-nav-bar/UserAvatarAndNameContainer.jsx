@@ -7,11 +7,10 @@ const UserAvatarAndNameContainer = () => {
   return ( 
     
       <div className={styles['avatar-and-name-container']}>
-        
-          <UserAvatar/>
-          <Link to={'./hidden-page'}>
-            <h3 className={styles.username}>Elochukwu Aroh</h3>  
-          </Link>    
+        <Link to={'./hidden-page'}>
+          <UserAvatar/>  
+        </Link>        
+        <h3 className={styles.username}>Elochukwu Aroh</h3>              
 
       </div> 
     
