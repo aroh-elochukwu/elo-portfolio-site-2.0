@@ -1,6 +1,8 @@
 import React from "react";
 import { Card } from "antd";
 
+// presently not being used anywhere
+
 import styles from './techStackContainer.module.css';
 
 const TechStackContainer = () => {
